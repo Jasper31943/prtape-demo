@@ -9,7 +9,7 @@
 ## 步骤
 
 1. 把源码压缩包解压到一个**不在任何 git 仓库内部**的新目录，例如 `~/recordings/catalog-page-demo`。
-2. 在该目录运行 `bash scripts/setup-baseline.sh`。脚本会拒绝嵌套在其他仓库里的目录，只在本目录建立仓库并做基线提交。它使用仓库本地身份 `AgentTape Demo` / `demo@example.invalid`，不修改全局 git 配置，不添加远程，也不 push。
+2. 在该目录运行 `bash scripts/setup-baseline.sh`。脚本会拒绝嵌套在其他仓库里的目录，只在本目录建立仓库并做基线提交。它使用仓库本地身份 `PRtape Demo` / `demo@example.invalid`，不修改全局 git 配置，不添加远程，也不 push。
 3. 按 `docs/RECORDING.md` 开始录屏。在项目目录启动 Claude Code，并粘贴其中的英文提示词。要求 Claude 全部用英文回答。
 4. 会话结束后，在 Finder 按 **Command+Shift+G**，打开 `~/.claude/projects`，按修改时间找到这次会话的 `.jsonl`。
 5. 把该 `.jsonl` **私下**发给工程师。不要公开原始会话文件。

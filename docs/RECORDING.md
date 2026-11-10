@@ -17,7 +17,7 @@ The unzipped source is supposed to fail `npm test`. That failure is intentional.
    bash scripts/setup-baseline.sh
    ```
 
-   The script refuses to continue if this folder sits inside another git repository, if `GIT_DIR` or `GIT_WORK_TREE` is set, or if `.git` already exists. It sets a repository-local identity only (`AgentTape Demo` / `demo@example.invalid`). It does not change global git config, does not add a remote, and does not push.
+   The script refuses to continue if this folder sits inside another git repository, if `GIT_DIR` or `GIT_WORK_TREE` is set, or if `.git` already exists. It sets a repository-local identity only (`PRtape Demo` / `demo@example.invalid`). It does not change global git config, does not add a remote, and does not push.
 5. You may run `npm test` once to see the failure. Leave the code unchanged after that.
 
 ## Record
@@ -42,7 +42,7 @@ This is an intentional demo project, not a real customer incident. The catalog p
 5. Run `npm test` again and continue until the suite passes.
 6. Explain one concise decision you made about the pagination boundary.
 7. Inspect the diff.
-8. Commit the source fix locally. Do not push. Do not add a remote. Do not change git config. Use the existing repository-local identity AgentTape Demo <demo@example.invalid>.
+8. Commit the source fix locally. Do not push. Do not add a remote. Do not change git config. Use the existing repository-local identity PRtape Demo <demo@example.invalid>.
 ```
 
 ## After the session
