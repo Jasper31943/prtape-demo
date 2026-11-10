@@ -1,0 +1,14 @@
+{
+  "name": "catalog-page-demo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Intentional demo project: an in-memory catalog page API. Not a customer incident.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
