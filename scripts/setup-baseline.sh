@@ -48,7 +48,7 @@ fi
 
 git init --quiet
 git symbolic-ref HEAD refs/heads/main
-git config --local user.name "AgentTape Demo"
+git config --local user.name "PRtape Demo"
 git config --local user.email "demo@example.invalid"
 git config --local commit.gpgsign false
 git config --local tag.gpgsign false
@@ -90,7 +90,7 @@ if [ -n "$unstaged" ] || [ -n "$untracked" ] || [ -z "$staged" ]; then
   exit 1
 fi
 
-git -c user.name="AgentTape Demo" -c user.email="demo@example.invalid" \
+git -c user.name="PRtape Demo" -c user.email="demo@example.invalid" \
   commit -m "$(cat <<'EOF'
 Add catalog page listing and acceptance tests.
 
@@ -103,7 +103,7 @@ if git remote >/dev/null 2>&1 && [ -n "$(git remote)" ]; then
 fi
 
 echo "Baseline commit created in $ROOT"
-echo "Identity: AgentTape Demo <demo@example.invalid> (this repository only)"
+echo "Identity: PRtape Demo <demo@example.invalid> (this repository only)"
 echo "No remote was added. Do not push."
 echo "The initial npm test failure is intentional. Do not repair the source before Claude Code does."
 git log -1 --format='commit %H%nAuthor: %an <%ae>'

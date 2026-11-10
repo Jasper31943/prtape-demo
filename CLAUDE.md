@@ -17,6 +17,6 @@ Do the following, in order:
 7. Inspect the diff (`git diff` and `git status`).
 8. Commit that source fix locally. Do not push. Do not add a remote. Do not change git config.
 
-Use the repository-local git identity already set by `scripts/setup-baseline.sh`: `AgentTape Demo` / `demo@example.invalid`.
+Use the repository-local git identity already set by `scripts/setup-baseline.sh`: `PRtape Demo` / `demo@example.invalid`.
 
 Do not publish anything.

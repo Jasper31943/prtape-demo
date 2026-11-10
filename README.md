@@ -1,8 +1,10 @@
 # Catalog page demo
 
-This repository is a **Demo project for AgentTape**. It is an intentional demo, not a customer incident.
+This repository is a **Demo project for PRtape**. It is an intentional demo, not a customer incident.
 
-The pagination fix was recorded in a **real Claude Code session**. The pull request applies the **same diff, re-committed** under the demo identity `AgentTape Demo <demo@example.invalid>`. It is not the original session commit.
+The pagination fix was recorded in a **real Claude Code session**. The pull request applies the **same diff, re-committed** under the demo identity `demo@example.invalid` (the author name on that commit is AgentTape Demo, from before this repository was renamed to prtape-demo). It is not the original session commit.
+
+The timeline comment on the pull request is produced with `npx prtape-cli pr`. The raw session file is not in this repository.
 
 This GitHub repository is **private**. Do not make it public. Do not publish it to npm.
 
@@ -53,7 +55,7 @@ The script checks that this directory is the project root and refuses to run whe
 
 Repository-local identity used by that commit:
 
-- Name: `AgentTape Demo`
+- Name: `PRtape Demo`
 - Email: `demo@example.invalid`
 
 The script does not change global git config, does not add a remote, and does not push.
