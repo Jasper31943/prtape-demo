@@ -14,7 +14,7 @@ export function createCatalog(records) {
   return {
     page(query) {
       const plan = planPageQuery(stored.length, query);
-      const end = Math.min(plan.offset + plan.limit, stored.length - 1);
+      const end = Math.min(plan.offset + plan.limit, stored.length);
       return {
         items: stored.slice(plan.offset, end).map((record) => ({ ...record })),
         page: plan.page,
